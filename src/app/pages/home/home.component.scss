@@ -119,47 +119,47 @@
 	display: flex !important;
 	visibility: visible !important;
 }
-.section-2 .slick-prev,
-.section-2 .slick-next
-{
-    font-size: 0;
-    line-height: 0;
+// .section-2 .slick-prev,
+// .section-2 .slick-next
+// {
+//     font-size: 0;
+//     line-height: 0;
 
-    position: absolute;
-    top: 50%;
+//     position: absolute;
+//     top: 50%;
 
-    display: block;
+//     display: block;
 
-    width: 24px;
-    height: 64px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+//     width: 24px;
+//     height: 64px;
+//     padding: 0;
+//     -webkit-transform: translate(0, -50%);
+//     -ms-transform: translate(0, -50%);
+//     transform: translate(0, -50%);
 
-    cursor: pointer;
+//     cursor: pointer;
 
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
+//     color: transparent;
+//     border: none;
+//     outline: none;
+//     background: transparent;
 
-	z-index: 888;
-}
-.section-2 .slick-prev{
-	background-image: url("/assets/img/inicio/arrow-left-disabled.png");
-    left: -23px;
-}
-.section-2 .slick-next{
-	background-image: url("/assets/img/inicio/arrow-right-disabled.png");
-    right: -23px;
-}
-.section-2 .slick-prev:hover{
-	background-image: url("/assets/img/inicio/arrow-left.png");
-}
-.section-2 .slick-next:hover{
-	background-image: url("/assets/img/inicio/arrow-right.png");
-}
+// 	z-index: 888;
+// }
+// .section-2 .slick-prev{
+// 	background-image: url("/assets/img/inicio/arrow-left-disabled.png");
+//     left: -23px;
+// }
+// .section-2 .slick-next{
+// 	background-image: url("/assets/img/inicio/arrow-right-disabled.png");
+//     right: -23px;
+// }
+// .section-2 .slick-prev:hover{
+// 	background-image: url("/assets/img/inicio/arrow-left.png");
+// }
+// .section-2 .slick-next:hover{
+// 	background-image: url("/assets/img/inicio/arrow-right.png");
+// }
 
 
 /* Seccion 3 */

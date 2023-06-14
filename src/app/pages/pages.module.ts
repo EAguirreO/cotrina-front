@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 import { HomeComponent } from './home/home.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { CuentaCreadaComponent } from './cuenta-creada/cuenta-creada.component';
@@ -10,7 +13,6 @@ import { NovedadesComponent } from './novedades/novedades.component';
 import { NovedadesDetalleComponent } from './novedades-detalle/novedades-detalle.component';
 import { PedidosDetalleComponent } from './pedidos-detalle/pedidos-detalle.component';
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
-import { RouterModule } from '@angular/router';
 import { PreguntasFrecuentesComponent } from './preguntas-frecuentes/preguntas-frecuentes.component';
 import { ProcesoCompraAComponent } from './proceso-compra-a/proceso-compra-a.component';
 import { ProcesoCompraBComponent } from './proceso-compra-b/proceso-compra-b.component';
@@ -49,7 +51,8 @@ import { TerminosCondicionesComponent } from './terminos-condiciones/terminos-co
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    CarouselModule
   ],
   exports: [
     HomeComponent,
