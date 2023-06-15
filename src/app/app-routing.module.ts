@@ -22,6 +22,8 @@ import { AlterMainComponent } from './layouts/alter-main/alter-main.component';
 import { RecuperarContraseniaCComponent } from './pages/recuperar-contrasenia-c/recuperar-contrasenia-c.component';
 import { RecuperarContraseniaDComponent } from './pages/recuperar-contrasenia-d/recuperar-contrasenia-d.component';
 import { TerminosCondicionesComponent } from './pages/terminos-condiciones/terminos-condiciones.component';
+import { CatalogoComponent } from './pages/catalogo/catalogo.component';
+import { CatalogoDetalleComponent } from './pages/catalogo-detalle/catalogo-detalle.component';
 
 const routes: Routes = [
   {
@@ -29,6 +31,8 @@ const routes: Routes = [
     children: [
       { path: 'home', component: HomeComponent },
       { path: 'carrito', component: CarritoComponent },
+      { path: 'catalogo', component: CatalogoComponent },
+      { path: 'catalogo-detalle', component: CatalogoDetalleComponent },
       { path: 'cuenta-creada', component: CuentaCreadaComponent },
       { path: 'libro-reclamaciones', component: LibroReclamacionesComponent },
       { path: 'mis-pedidos', component: MisPedidosComponent },

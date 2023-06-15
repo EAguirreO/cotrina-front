@@ -15,68 +15,7 @@
     /* min-height: 80vh; */
     min-height: 40vh;
 }
-.header{
-	background-color: #11434c;
-	padding: 25px 140px;
-    position: sticky;
-    top: 0;
-	z-index: 999;
-	width: 100%;
-	display: block;
-}
-.nav-menu>.nav-link {
-    flex: none;
-    color: white;
-    font-weight: 400;
-    font-size: 1.4rem;
-    margin-right: 10px;
-    padding: 2px 14px;
-}
-.nav-menu>.nav-link:hover {
-    color: #2db18a;
-    /* border-radius: 20px; */
-    /* background-color: #2db18a; */
-    /* color: #11434c !important; */
-}
-.contenedor-rs-header{
-    margin-left: 15px;
-}
-.img-logo{
-    width: 210px;
-}
-.nav-link-activo{
-    border-radius: 20px;
-    color: #11434c !important;
-    background-color: #2db18a;
-}
-.header-linea{
-    width: 2px;
-    background-color: #2db18a;
-    height: 40px;
-    margin-left: 25px;
-    margin-right: 10px;
-}
-.mensaje-header{
-    font-size: 1.4rem;
-    margin-bottom: 0;
-    color: white;
-    line-height: 1.3rem;
-}
-.div-notificacion{
-    position: relative;
-}
-.num-notificacion{
-    color: white;
-    background-color: #2db18a;
-    position: absolute;
-    top: 7px;
-    right: -22px;
-    padding: 2px 12px 0px;
-    line-height: normal;
-    font-size: 1.2rem;
-    border-radius: 12px;
-    font-weight: 500;
-}
+
 
 /* .nav-link-activo::after{
     border-radius: 5px;
@@ -87,92 +26,6 @@
     display: block;
 } */
 
-
-/*Footer*/
-.footer-content-1{
-    background-color: #8fe1ca;
-    padding: 40px 0px 45px;
-}
-.input-correo{
-    max-width: 270px;
-    border-bottom: 3px solid #11434c;
-}
-.input-correo > input{
-    background-color: transparent;
-    border: none;
-    color: #11434c;
-    font-size: 1.3rem;
-}
-.input-correo > input::placeholder{
-    color: #11434c;
-}
-.input-correo > input:focus{
-    background-color: transparent;
-    box-shadow: none;
-}
-.input-correo > button{
-    border: none;
-    background-color: transparent;
-    padding-left: 0;
-}
-.footer-1{
-    margin-right: 50px;
-}
-.footer-text-1{
-    color: #11434c;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-.footer-text-2{
-    font-size: 1.65rem;
-    line-height: 1.65rem;
-    margin-bottom: 0;
-    font-weight: 500;
-}
-
-.footer-content-2{
-    background-color: #11434c;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 30px;
-    padding-bottom: 18px;
-}
-.footer-sub-content{
-    margin-bottom: 70px;
-}
-.footer-titulo{
-    color: #2db18a;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-    font-weight: 600;
-}
-.footer-enlace{
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-.footer-enlace:hover{
-    color: white;
-}
-.footer-sub-1{
-    margin-right: 100px;
-}
-.footer-div-3{
-    background-color: #8fe1ca;
-    padding: 18px 25px;
-    border-radius: 10px;
-}
-.footer-div-3 p{
-    font-size: 1.1rem;
-    color: #11434c;
-    margin-bottom: 0;
-}
-.footer-sub-3{
-    margin-right: 40px;
-}
 
 
 /* Modal login */
@@ -575,6 +428,8 @@
     margin-bottom: 10px;
 }
 
+@media (max-width: 1600px) {
+}
 @media (max-width: 1440px) {
 }
 @media (max-width: 1200px) {

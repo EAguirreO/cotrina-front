@@ -23,6 +23,8 @@ import { RegistroComponent } from './registro/registro.component';
 import { RecuperarContraseniaCComponent } from './recuperar-contrasenia-c/recuperar-contrasenia-c.component';
 import { RecuperarContraseniaDComponent } from './recuperar-contrasenia-d/recuperar-contrasenia-d.component';
 import { TerminosCondicionesComponent } from './terminos-condiciones/terminos-condiciones.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { CatalogoDetalleComponent } from './catalogo-detalle/catalogo-detalle.component';
 
 
 
@@ -47,7 +49,9 @@ import { TerminosCondicionesComponent } from './terminos-condiciones/terminos-co
     RegistroComponent,
     RecuperarContraseniaCComponent,
     RecuperarContraseniaDComponent,
-    TerminosCondicionesComponent
+    TerminosCondicionesComponent,
+    CatalogoComponent,
+    CatalogoDetalleComponent
   ],
   imports: [
     CommonModule,
@@ -74,7 +78,9 @@ import { TerminosCondicionesComponent } from './terminos-condiciones/terminos-co
     RegistroComponent,
     RecuperarContraseniaCComponent,
     RecuperarContraseniaDComponent,
-    TerminosCondicionesComponent
+    TerminosCondicionesComponent,
+    CatalogoComponent,
+    CatalogoDetalleComponent
   ]
 })
 export class PagesModule { }

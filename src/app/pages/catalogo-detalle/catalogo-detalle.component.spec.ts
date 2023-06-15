@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { CatalogoDetalleComponent } from './catalogo-detalle.component';
+
+describe('CatalogoDetalleComponent', () => {
+  let component: CatalogoDetalleComponent;
+  let fixture: ComponentFixture<CatalogoDetalleComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [CatalogoDetalleComponent]
+    });
+    fixture = TestBed.createComponent(CatalogoDetalleComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

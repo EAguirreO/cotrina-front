@@ -1,0 +1,225 @@
+/*Footer*/
+.footer-content-1{
+    background-color: #8fe1ca;
+    padding: 40px 0px 45px;
+}
+.input-correo{
+    max-width: 270px;
+    border-bottom: 3px solid #11434c;
+}
+.input-correo > input{
+    background-color: transparent;
+    border: none;
+    color: #11434c;
+    font-size: 1.3rem;
+}
+.input-correo > input::placeholder{
+    color: #11434c;
+}
+.input-correo > input:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+.input-correo > button{
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+}
+.footer-1{
+    margin-right: 50px;
+}
+.footer-text-1{
+    color: #11434c;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.footer-text-2{
+    font-size: 1.65rem;
+    line-height: 1.65rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.footer-content-2{
+    background-color: #11434c;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.footer-sub-content{
+    margin-bottom: 70px;
+}
+.footer-titulo{
+    color: #2db18a;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+}
+.footer-enlace{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.footer-enlace:hover{
+    color: white;
+}
+.footer-sub-1{
+    margin-right: 100px;
+}
+.footer-div-3{
+    background-color: #8fe1ca;
+    padding: 18px 25px;
+    border-radius: 10px;
+}
+.footer-div-3 p{
+    font-size: 1.1rem;
+    color: #11434c;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer-sub-3{
+    margin-right: 40px;
+}
+
+@media (max-width: 1600px) {
+    .footer-content-2{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .footer-content-2{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+@media (max-width: 1200px) {
+    .footer-content-1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-1{
+        margin-right: 20px;
+    }
+    .footer-content-2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-sub-1{
+        margin-right: 50px;
+    }
+}
+@media (max-width: 1040px) {
+    .footer-sub-content{
+        flex-direction: column;
+    }
+    .footer-div-1{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 992px) {
+    .footer-content-1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-1{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer-content-1 > div{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .footer-content-2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .footer-div-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-div-3 > div{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-text-1{
+        font-size: 2rem;
+        line-height: normal
+    }
+    .footer-text-2{
+        font-size: 1.4rem;
+        line-height: normal;
+    }
+}
+@media (max-width: 576px) {
+    .footer-sub-1{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .footer-div-2{
+        flex-direction: column;
+    }
+    .footer-sub-3{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .footer-content-1{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer-content-1 > div{
+        align-items: center !important;
+    }
+    .footer-text-1{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .footer-text-2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .input-correo{
+        max-width: none;
+    }
+    .footer-content-2{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer-sub-2{
+        width: 100%;
+    }
+    .footer-sub-2 > div{
+        align-items: center !important;
+    }
+    .footer-titulo{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .footer-enlace{
+        font-size: 1.1rem;
+    }
+    .div-img-metodos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-sub-4{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-div-3{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media (max-width: 375px) {
+}
