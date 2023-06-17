@@ -1,13 +1,20 @@
 <div class="section_general section-catalogo-detalle">
-    <div class="breadcrumb-custom d-flex">
+    <!-- <div class="breadcrumb-custom d-flex">
         <a class="enlace-catalogo" href="">Catálogo</a>
         <p class="mx-1">/</p>
         <a class="enlace-categoria" href="">Especias</a>
         <p class="mx-1">/</p>
         <a class="enlace-producto" href="">Cúrcuma en polvo</a>
-    </div>
+    </div> -->
+    <p class="breadcrumb-custom">
+        <a href="">Catálogo</a>
+        /
+        <a class="enlace-categoria" href="">Especias</a>
+        /
+        <a class="enlace-producto" href="">Cúrcuma en polvo</a>
+    </p>
     <div class="row section-1">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
             <div class="cont-imgs-producto d-flex">
                 <div class="div-imgs-1 d-flex flex-column">
                     <button class="btn active" aria-current="true" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
@@ -34,13 +41,13 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            {{-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> --}}
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
                             <img class="img-car" src="assets/img/inicio/arrow-left-disabled.png" alt="">
                             <img class="img-car-hidden" src="assets/img/inicio/arrow-left.png" alt="">
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            {{-- <span class="carousel-control-next-icon" aria-hidden="true"></span> --}}
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                             <img class="img-car" src="assets/img/inicio/arrow-right-disabled.png" alt="">
                             <img class="img-car-hidden" src="assets/img/inicio/arrow-right.png" alt="">
                             <span class="visually-hidden">Next</span>
@@ -49,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
             <div class="prod-descripcion d-flex flex-column justify-content-center h-100">
                 <h2>Especias</h2>
                 <h1>Cúrcuma en polvo</h1>
@@ -78,90 +85,118 @@
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-detalles" role="tabpanel" aria-labelledby="v-pills-detalles-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h3 class="titulo-detalle">Detalle</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Sector Productivo</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Agroindustria</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Sector Productivo</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Agroindustria</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Tipo de Producto</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Cúrcuma molida</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Tipo de Producto</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Cúrcuma molida</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Nombre del Producto</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Cúrcuma longa</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Nombre del Producto</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Cúrcuma longa</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Lugar de Origen</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Junín - Selva Central</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Lugar de Origen</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Junín - Selva Central</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Partida Arancelaria</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">0910300000</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Partida Arancelaria</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> 0910300000</p>
                             </div>
 
                         </div>
                         <h3 class="titulo-detalle">Envasado</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Peso</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">10kg, 20kg.</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Peso</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> 10kg, 20kg.</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Embalaje</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">bolsa x kg x caja (granel)</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Embalaje</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> bolsa x kg x caja (granel)</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Empaque Primario</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Bolsa de polietileno de color azul, baja densidad.</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Empaque Primario</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Bolsa de polietileno de color azul, baja densidad.</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Empaque Secundario</p>
-                                <p class="det-2">:</p>
-                                <p class="det-3">Caja de carton corrugado, sello con cinta de color azul.</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Empaque Secundario</p>
+                                    <p class="det-2">:</p>
+                                </div>
+                                <p class="det-3"> Caja de carton corrugado, sello con cinta de color azul.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h3 class="titulo-detalle">Características</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Color</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Color</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Amarillo pardo oscuro</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Olor</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Olor</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Propio de la especia</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Sabor</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Sabor</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Suave e intenso</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Aspecto</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Aspecto</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Polvo amarillento oscuro</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Textura</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Textura</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Polvo fino, pulverizado</p>
                             </div>
                         </div>
@@ -170,151 +205,201 @@
             </div>
             <div class="tab-pane fade" id="v-pills-especificaciones" role="tabpanel" aria-labelledby="v-pills-especificaciones-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h3 class="titulo-detalle">Características Fisicoquímicas</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Humedad</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Humedad</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">5 - 7%</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Extracto etéreo</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Extracto etéreo</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">3 - 5%</p>
                             </div>
 
                             <div class="d-flex">
-                                <p class="det-1">Aceite esencial</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Aceite esencial</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">7.54% - 0.29%</p>
                             </div>
                         </div>
                         <h3 class="titulo-detalle">Características de Calidad</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Cenizas totales</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Cenizas totales</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">1.48 - 0.09%</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Porcentaje de curcumina</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Porcentaje de curcumina</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">7.54 - 0.29%</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Insectos / huevos de insectos</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Insectos / huevos de insectos</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Ausente</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Lombrices / larvas</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Lombrices / larvas</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Ausente</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Materiales extraños</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Materiales extraños</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Ausente</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Residuos de pesticidas</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Residuos de pesticidas</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Dentro de los límites establecidos en la UEE.</p>
                             </div>
                         </div>
                         <h3 class="titulo-detalle">Características Microbiológicas</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Recuento de aerobios</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Recuento de aerobios</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Menor a 1 x 10^5 ufc/g</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">E. Coli</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">E. Coli</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Menor a 3 NMP/g</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Coliformes totales</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Coliformes totales</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Menor a 3 NMP/g</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Mohos</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Mohos</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Menor a 10,000 ufc/g</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Levaduras</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Levaduras</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Menor a 1,000 ufc/g</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Salmonella</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Salmonella</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Negativa/25g</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h3 class="titulo-detalle">Aporte Nutricional (porción 100gr)</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Valor Energético</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Valor Energético</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">1.412 kJ - 338 kcal</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Grasas</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Grasas</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">9.88 gr</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Grasas Saturadas</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Grasas Saturadas</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">3.12 gr</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Carbohidratos</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Carbohidratos</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">43.83 gr</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Azúcares</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Azúcares</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">3.21 gr</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Proteína</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Proteína</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">7.83 gr</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Sal</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Sal</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">0.38 gr</p>
                             </div>
                         </div>
                         <h3 class="titulo-detalle">Forma de Consumo / Consumidores Potenciales</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Consumo</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Consumo</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Apto para todos los consumidores, se añade a alimentos que se están cocinando o macerando ya que la calidad es 100% cúrcuma de cultivo orgánico.</p>
                             </div>
                         </div>
                         <h3 class="titulo-detalle">Tiempo de vida útil / Almacenamiento</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Vida útil</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Vida útil</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Hasta 3 años a partir de la fecha de envasado.</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Almacenamiento</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Almacenamiento</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Se debe conservar en un entorno fresco, seco y al abrigo de la luz</p>
                             </div>
                         </div>
@@ -323,27 +408,35 @@
             </div>
             <div class="tab-pane fade" id="v-pills-pago" role="tabpanel" aria-labelledby="v-pills-pago-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h3 class="titulo-detalle">Condiciones de Pago y Envío</h3>
                         <div class="cont-detalle d-flex flex-column">
                             <div class="d-flex">
-                                <p class="det-1">Puerto de embarque</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Puerto de embarque</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">Arica - Chile</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Incoterm</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Incoterm</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">FOB, Arica</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Término de pago</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Término de pago</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">L/C, 100% CAD Bancario</p>
                             </div>
                             <div class="d-flex">
-                                <p class="det-1">Tiempo de despacho</p>
-                                <p class="det-2">:</p>
+                                <div class="d-flex sub-detalle">
+                                    <p class="det-1">Tiempo de despacho</p>
+                                    <p class="det-2">:</p>
+                                </div>
                                 <p class="det-3">30 días después de generada la orden de producción.</p>
                             </div>
                         </div>
@@ -353,7 +446,7 @@
         </div>
     </div>
     <div class="section-3">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="section-3-header d-flex justify-content-between align-items-center">
             <h2>Productos Relacionados</h2>
             <a class="btn btn-ver-catalogo">VER CATÁLOGO</a>
         </div>

@@ -1,12 +1,14 @@
 .section-nosotros{
-    padding-left: 140px;
-    padding-right: 140px;
+    // padding-left: 140px;
+    // padding-right: 140px;
 }
 
 /* Seccion 1 */
 .section-1{
     padding-top: 130px;
     margin-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .sec-1-div-1{
     width: 50%;
@@ -32,6 +34,8 @@
 /* Seccion 2 */
 .section-2{
     margin-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .sec-2-div-1{
     width: 50%;
@@ -51,4 +55,113 @@
     font-size: 1.7rem;
     line-height: 1.7rem;
     text-align: justify;
+}
+
+@media (max-width: 1600px) {
+    .section-1, .section-2{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section-1, .section-2{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .section-1{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-1, .section-2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-1{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-2{
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .sec-1-div-1{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .sec-1-div-2{
+        width: 80%;
+    }
+    .sec-2-div-2{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sec-2-div-1{
+        width: 80%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec-1-div-1 h2{
+        font-size: 3rem;
+    }
+    .sec-2-div-2 h2{
+        font-size: 3rem;
+    }
+    .sec-1-div-1 p{
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .sec-2-div-2 p{
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 425px) {
+    .section-1, .section-2{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .sec-2-div-1{
+        width: 100%;
+    }
+    .sec-1-div-1 h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .sec-1-div-1 p{
+        font-size: 1.3rem;
+    }
+    .sec-1-div-2{
+        width: 100%;
+    }
+    .sec-2-div-2 h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .sec-2-div-2 p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .sec-1-div-1 h2{
+        font-size: 2.3rem;
+    }
+    .sec-2-div-2 h2{
+        font-size: 2.3rem;
+    }
 }

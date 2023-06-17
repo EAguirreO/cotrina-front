@@ -57,6 +57,9 @@ const routes: Routes = [
       { path: 'paso-3', component: RecuperarContraseniaCComponent},
       { path: 'paso-4', component: RecuperarContraseniaDComponent}
     ]
+  },
+  {
+    path: '**', redirectTo: '/views/home'
   }
 ];
 

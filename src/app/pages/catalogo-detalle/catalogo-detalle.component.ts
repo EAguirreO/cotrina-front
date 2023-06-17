@@ -14,7 +14,6 @@ export class CatalogoDetalleComponent {
     pullDrag: false,
     dots: false,
     navSpeed: 700,
-    navText: ['<image src="assets/img/inicio/arrow-left-disabled.png">', '<image src="assets/img/inicio/arrow-right-disabled.png">'],
     responsive: {
       0: {
         items: 1
@@ -29,6 +28,6 @@ export class CatalogoDetalleComponent {
         items: 5
       }
     },
-    nav: true
+    nav: false
   }
 }
