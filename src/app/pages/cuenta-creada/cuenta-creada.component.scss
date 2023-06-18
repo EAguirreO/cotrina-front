@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding: 100px 30px 150px;
 }
 .cuenta-creada-div{
     max-width: 420px;
@@ -24,4 +23,18 @@
     color: #2db18a;
     text-decoration: none;
     font-weight: 500;
+}
+
+@media (max-width: 425px) {
+    .content-cuenta-creada{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cuenta-creada-div > h1{
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+    .cuenta-creada-div p{
+        font-size: 1.1rem;
+    }
 }

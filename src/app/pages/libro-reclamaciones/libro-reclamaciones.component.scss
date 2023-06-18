@@ -60,3 +60,58 @@
     margin-bottom: 20px;
     text-align: justify;
 }
+
+
+@media (max-width: 1600px) {
+    .content-libro-reclamaciones{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .content-libro-reclamaciones{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .contenedor > h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1200px) {
+    .content-libro-reclamaciones{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contenedor > h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .content-libro-reclamaciones{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 768px) {}
+@media (max-width: 576px) {}
+@media (max-width: 425px) {
+    .content-libro-reclamaciones{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .contenedor > h1{
+        font-size: 2.2rem;
+    }
+    .contenedor p{
+        font-size: 1.1rem;
+        line-height: normal;
+    }
+    .cuadro-verde{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn-formato{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 375px) {}

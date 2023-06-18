@@ -132,3 +132,99 @@
     text-decoration: none;
     border-bottom: 1px solid #11434c;
 }
+
+
+@media (max-width: 1600px) {
+    .content-proceso-compra-2{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .content-proceso-compra-2{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content-proceso-compra-2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contenido-titulo{
+        font-size: 3rem;
+    }
+    .contenedor-datos{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .datos-div{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .content-proceso-compra-2{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .contenido-titulo{
+        font-size: 2.8rem;
+    }
+    .contenido{
+        margin-right: 0;
+    }
+    .contenedor-datos{
+        flex-direction: row;
+        align-items: end !important;
+    }
+    .div-resumen{
+        flex: 0 1 auto;
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contenedor-datos{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .div-resumen{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-proceso-compra-2{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .div-resumen{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .texto-cuadro{
+        font-size: 1.2rem;
+    }
+    .cuadro-azul{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .resumen-btnContinuar{
+        font-size: 1.2rem;
+    }
+    .contenido-titulo{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .contenido-titulo{
+        font-size: 2.4rem;
+    }
+}

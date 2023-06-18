@@ -1,5 +1,5 @@
 .content-proceso-compra-3{
-    padding: 100px 140px 270px;
+    padding: 100px 140px 150px;
 }
 .contenido{
     /* width: 100%; */
@@ -98,6 +98,7 @@
 }
 .form-check{
     padding-left: 3.3em;
+    margin-right: 15px;
 }
 .form-check-input{
     width: 2.2em;
@@ -129,4 +130,129 @@
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 176px;
+}
+
+@media (max-width: 1600px) {
+    .content-proceso-compra-3{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .content-proceso-compra-3{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contenido-titulo{
+        font-size: 3rem;
+    }
+    .content-proceso-compra-3{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .div-metodo{
+        flex-direction: column;
+    }
+    .div-img-tarjetas{
+        justify-content: center;
+    }
+    .form-check{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contenido-titulo{
+        font-size: 2.8rem;
+    }
+    .content-proceso-compra-3{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .form-check{
+        margin-bottom: 0;
+    }
+    .div-metodo{
+        flex-direction: row;
+    }
+    .contenido{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-metodo{
+        flex-direction: column;
+    }
+    .div-img-tarjetas{
+        justify-content: start !important;
+    }
+    .form-check{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .subtitulo{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .div-img-tarjetas{
+        justify-content: center !important;
+    }
+    .div-resumen{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .contenido-titulo{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    .content-proceso-compra-3{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .form-check{
+        padding-left: 2.6em;
+    }
+    .form-check-input{
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: -2.6em !important;
+    }
+    .form-check-label{
+        font-size: 1.2rem;
+        margin-top: 3px;
+    }
+    .div-resumen{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .resumen-btnComprar{
+        font-size: 1.2rem;
+    }
+    .div-comprobante:first-child{
+        margin-right: 0 !important;
+    }
+    .div-comprobante{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .contenido-titulo{
+        font-size: 2.2rem;
+    }
 }

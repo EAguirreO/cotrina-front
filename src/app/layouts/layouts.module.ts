@@ -4,6 +4,7 @@ import { MainComponent } from './main/main.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { AlterMainComponent } from './alter-main/alter-main.component';
+import { PagesModule } from '../pages/pages.module';
 
 
 
@@ -15,7 +16,8 @@ import { AlterMainComponent } from './alter-main/alter-main.component';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    PagesModule
   ],
   exports: [
     MainComponent,

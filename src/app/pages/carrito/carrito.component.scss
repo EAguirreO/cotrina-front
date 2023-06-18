@@ -18,6 +18,7 @@
     line-height: 3.4rem;
     font-weight: 700;
     margin-bottom: 0;
+    margin-right: 15px;
 }
 .cesta-header-texto{
     font-size: 2.2rem;
@@ -25,6 +26,7 @@
     color: #2bb289;
     font-weight: 600;
     margin-bottom: 0;
+    min-width: 182px;
 }
 .linea-verde{
     width: 100%;
@@ -52,6 +54,14 @@
 .img-producto{
     border-radius: 10px;
     margin-right: 18px;
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // width: 100%;
+    // height: 100%;
+}
+.div-nombre{
+    margin-right: 15px;
 }
 .nombre-producto{
     color: #11434c;
@@ -90,6 +100,7 @@
     line-height: normal;
     font-weight: 600;
     margin-bottom: 0;
+    margin-right: 15px;
 }
 .precio-producto span{
     font-size: 1.4rem;
@@ -127,6 +138,7 @@
     color: #11434c;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: center;
 }
 .cuadro-resumen-div{
     width: 100%;
@@ -162,3 +174,160 @@
     text-decoration: none;
     border-bottom: 1px solid #11434c;
 }
+
+@media (max-width: 1600px) {
+    .section-carrito{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .section-carrito{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .cesta-header-titulo{
+        font-size: 3rem;
+    }
+    .cesta-header-texto{
+        font-size: 1.9rem;
+        line-height: normal;
+    }
+}
+@media (max-width: 1200px) {
+    .section-carrito{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cesta-header-titulo{
+        font-size: 2.5rem;
+    }
+    .producto{
+        align-items: center;
+    }
+    .contenedor-1{
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+    .div-nombre{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .div-cantidad{
+        margin-bottom: 0;
+    }
+    .contenedor-2{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .precio-producto{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .section-carrito{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .contenedor-1{
+        flex-direction: row;
+    }
+    .div-cantidad{
+        margin-bottom: 0;
+    }
+    .contenedor-2{
+        flex-direction: row;
+        align-items: end !important;
+    }
+    .cesta{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .producto{
+        align-items: stretch;
+    }
+    .cuadro-resumen{
+        max-width: 500px;
+        width: auto;
+    }
+}
+@media (max-width: 768px) {
+    .producto{
+        flex-direction: column;
+    }
+    .img-producto{
+        width: 140px;
+        margin-bottom: 15px;
+    }
+    .cesta-header{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .cesta-header-titulo{
+        margin-right: 0;
+    }
+}
+@media (max-width: 576px) {
+    .contenedor-1{
+        flex-direction: column;
+    }
+    .contenedor-2{
+        flex-direction: column;
+    }
+    .precio-producto{
+        margin-right: 0;
+    }
+}
+@media (max-width: 425px) {
+    .section-carrito{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cesta-header{
+        align-items: center !important;
+    }
+    .cesta-header-titulo{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .cesta-header-texto{
+        text-align: center;
+    }
+    .img-producto{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .nombre-producto{
+        text-align: center;
+    }
+    .codigo-producto{
+        text-align: center;
+    }
+    .div-cantidad{
+        justify-content: center !important;
+        margin-bottom: 15px;
+    }
+    .precio-producto{
+        margin: auto;
+    }
+    .btn-eliminar{
+        margin: auto;
+    }
+    .btn-recuperar{
+        margin: auto;
+    }
+    .cuadro-resumen-btn{
+        font-size: 1.2rem;
+    }
+    .cuadro-resumen-subtotal{
+        margin-right: 15px;
+    }
+    .cuadro-resumen{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 375px) {}

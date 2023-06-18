@@ -5,6 +5,10 @@
     max-width: 1070px;
 }
 
+input{
+    text-overflow: ellipsis;
+}
+
 h1{
     color: #11434c;
     font-size: 3.3rem;
@@ -111,4 +115,79 @@ p{
     color: #11434c;
     text-decoration: none;
     font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+    .content-registro{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .content-registro{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+@media (max-width: 1200px) {
+    .content-registro{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 992px) {
+    .content-registro{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    h1{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .content-registro{
+        padding-top: 50px;
+    }
+}
+@media (max-width: 576px) {}
+@media (max-width: 425px) {
+    .content-registro{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    h1{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .form-label{
+        font-size: 1.3rem;
+    }
+    .form-control{
+        font-size: 1.1rem;
+    }
+    .form-select{
+        font-size: 1.1rem;
+    }
+    .form-check-label{
+        font-size: 1.1rem;
+    }
+    .form-check-input{
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: .2em;
+    }
+    .btn-registrar{
+        font-size: 1.2rem;
+    }
+    .cont-registrar > p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 375px) {
+    h1{
+        font-size: 2.2rem;
+    }
 }

@@ -38,3 +38,57 @@
     font-size: 1.7rem;
     font-weight: 600;
 }
+
+@media (max-width: 1600px) {
+    .content-terminos-condiciones{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .content-terminos-condiciones{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .contenedor > h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1200px) {
+    .content-terminos-condiciones{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contenedor > h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .content-terminos-condiciones{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 768px) {}
+@media (max-width: 576px) {}
+@media (max-width: 425px) {
+    .content-terminos-condiciones{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .contenedor > h1{
+        font-size: 2.4rem;
+    }
+    .contenedor > h2{
+        font-size: 2rem;
+    }
+    .contenedor > h3,
+    .contenedor > h4{
+        font-size: 1.5rem;
+    }
+    .contenedor p{
+        font-size: 1.1rem;
+        line-height: normal;
+    }
+}
+@media (max-width: 375px) {}

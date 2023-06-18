@@ -1,44 +1,45 @@
-.div-container{
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+/* Modal login */
+#loginModal .modal-body{
+    padding: 40px 50px 30px;
 }
-.contenedor{
-    max-width: 360px;
+#loginModal .modal-content{
+    border-radius: 20px;
 }
-.titulo{
+.login-titulo{
     font-size: 2.2rem;
     color: #11434c;
     text-align: center;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.texto{
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    text-align: center;
-}
-.form-label{
+.login-label{
     color: #11434c;
     font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 0;
 }
-.form-control{
+.login-input{
     border: none;
     border-radius: 0;
     border-bottom: 1px solid black;
     font-size: 1.2rem;
-    line-height: 1.2rem;
 }
-.form-control:focus{
+.login-input:focus{
     border-color: #2db18a;
     box-shadow: none;
 }
-.form-control:focus::placeholder{
+.login-input:focus::placeholder{
     color: #2db18a;
 }
-.btn-enviar{
+.login-link-forgot-pass{
+    text-decoration: none;
+    color: #212529;
+    font-size: 1.1rem;
+}
+.login-link-forgot-pass:hover{
+    color: #11434c;
+}
+.btn-login-ingresar{
     background-color: #11434c !important;
     color: white !important;
     padding-top: 15px;
@@ -48,46 +49,27 @@
     margin-bottom: 20px;
     border-radius: 10px;
     font-weight: 500;
-    width: 100%;
 }
-.informacion{
-    font-size: 0.97rem;
-    line-height: 0.97rem;
-    color: gray;
-}
-.enlace{
-    font-size: 1.1rem;
-    line-height: 1.1rem;
-    color: gray;
-    text-decoration: none;
-}
-.aviso-registro{
-    font-size: 1.2rem;
+.login-link-register{
     text-align: center;
-    color: gray;
+    font-size: 1.2rem;
 }
-.aviso-registro > a{
+.login-link-register > a{
     color: #11434c;
     text-decoration: none;
     font-weight: 500;
 }
 
+
 @media (max-width: 425px) {
-    .div-container{
+    #loginModal .modal-body{
         padding-left: 16px;
         padding-right: 16px;
     }
-    .titulo{
+    .login-titulo{
         font-size: 1.8rem;
-        line-height: normal;
     }
-    .texto{
-        font-size: 1.1rem;
-    }
-    .form-control{
-        font-size: 1.1rem;
-    }
-    .btn-enviar{
+    .btn-login-ingresar{
         font-size: 1.2rem;
     }
 }

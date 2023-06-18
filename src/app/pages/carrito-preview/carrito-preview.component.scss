@@ -1,0 +1,191 @@
+/* Carrito preview */
+.offcanvas{
+    width: 520px;
+    border-left: 2px solid #2bb289;
+}
+.offcanvas-header{
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+.offcanvas-body{
+    padding: 0;
+}
+ .btn-cerrarCarritoPreview{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2bb289 !important;
+    padding: 0;
+}
+ .btn-cerrarCarritoPreview > i{
+    font-size: 1.8rem;
+    position: relative;
+    margin-right: 5px;
+    top: 3px;
+}
+ .carritoPreviewTitulo{
+    text-align: center;
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+ .carritoPreview-producto{
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #ebf7f3;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .carritoPreview-img-producto{
+    border-radius: 5px;
+    margin-right: 18px;
+}
+ .carritoPreview-contenedor-producto{
+    flex-grow: 1;
+}
+.div-nombre{
+    margin-right: 15px;
+}
+ .carritoPreview-nombre-producto{
+    color: #11434c;
+    font-size: 1.3rem;
+    line-height: normal;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+ .carritoPreview-btn-accion{
+    background-color: #53bf9f;
+    font-size: 1.3rem;
+    line-height: normal;
+    padding: 6px 6px 2px;
+    border: none;
+    border-radius: 6px;
+}
+.carritoPreview-btn-accion:hover{
+    background-color: #d7f1e8;
+}
+.carritoPreview-cantidad-producto{
+    font-size: 1.3rem;
+    color: #11434c;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* position: relative; */
+    /* top: 4px; */
+}
+.carritoPreview-precio-producto{
+    color: #2bb289;
+    font-size: 1.4rem;
+    line-height: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.carritoPreview-precio-producto span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+}
+.carritoPreview-btn-eliminar{
+    font-size: 1.1rem;
+    line-height: normal;
+    color: #11434c;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #11434c;
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+.carritoPreview-resumen-div{
+    background-color: #d5eee8;
+    padding: 30px 40px 30px;
+}
+.carritoPreview-resumen-titulo{
+    text-align: center;
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.carritoPreview-resumen-texto-subtotal{
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 600;
+    color: #2bb289;
+    margin-bottom: 0;
+}
+.carritoPreview-resumen-subtotal{
+    font-size: 1.6rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.carritoPreview-resumen-sub{
+    margin-bottom: 10px;
+}
+.carritoPreview-resumen-parrafo{
+    color: #11434c;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.carritoPreview-resumen-btnVerCesta{
+    background-color: #11434c;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 80px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 425px) {
+    .carritoPreview-producto{
+        flex-direction: column;
+    }
+    .carritoPreview-img-producto{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .carritoPreview-contenedor-producto{
+        width: 100%;
+    }
+    .div-nombre{
+        margin-right: 0;
+    }
+    .carritoPreviewTitulo{
+        font-size: 1.8rem;
+    }
+    .cont-1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .div-contador{
+        justify-content: center;
+    }
+    .carritoPreview-nombre-producto{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .cont-2{
+        margin-top: 10px;
+    }
+    .carritoPreview-resumen-div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .carritoPreview-resumen-titulo{
+        font-size: 1.8rem;
+    }
+    .carritoPreview-resumen-texto-subtotal{
+        font-size: 1.3rem;
+    }
+    .carritoPreview-resumen-subtotal{
+        font-size: 1.3rem;
+    }
+    .carritoPreview-resumen-btnVerCesta{
+        font-size: 1.1rem;
+    }
+}

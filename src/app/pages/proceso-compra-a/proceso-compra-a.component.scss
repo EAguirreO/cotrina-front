@@ -1,8 +1,15 @@
 .content-proceso-compra-1{
-    padding: 80px 140px 300px;
+    padding: 80px 140px 150px;
+    // padding-top: 80px;
+    // padding-bottom: 300px;
+    // margin-left: 140px;
+    // margin-right: 140px;
+}
+input, select{
+    text-overflow: ellipsis;
 }
 .contenido{
-    /* width: 100%; */
+    // width: 100%;
     flex-grow: 1;
     margin-right: 50px;
 }
@@ -78,6 +85,7 @@
     background-color: #ebf7f3;
     padding: 30px 40px 30px;
     border-radius: 20px;
+    flex: 0 0 500px;
 }
 .resumen-titulo{
     text-align: center;
@@ -125,4 +133,92 @@
     color: #11434c !important;
     text-decoration: none;
     border-bottom: 1px solid #11434c;
+}
+
+@media (max-width: 1600px) {
+    .content-proceso-compra-1{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .content-proceso-compra-1{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+@media (max-width: 1200px) {
+    .content-proceso-compra-1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contenido-titulo{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 992px) {
+    .content-proceso-compra-1{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .contenido-titulo{
+        font-size: 2.8rem;
+    }
+    .contenido{
+        // flex-grow: 0;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .div-resumen{
+        flex: 0 1 auto;
+    }
+}
+@media (max-width: 768px) {
+    // .row > div{
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+}
+@media (max-width: 767px) {}
+@media (max-width: 576px) {}
+@media (max-width: 425px) {
+    .content-proceso-compra-1{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .row{
+        --bs-gutter-x: 0;
+    }
+    .contenido-titulo{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .label-custom{
+        font-size: 1.3rem;
+    }
+    .input-custom, .select-custom{
+        font-size: 1.1rem;
+    }
+    .contenedor-boton{
+        justify-content: center !important;
+    }
+    .btn-crearDireccion{
+        font-size: 1.2rem;
+    }
+    .resumen-btnContinuar{
+        font-size: 1.2rem;
+    }
+    .div-resumen{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .contenido-titulo{
+        font-size: 2.2rem;
+    }
 }

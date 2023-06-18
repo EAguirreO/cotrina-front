@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 30px;
 }
 .registro-validacion-div{
     background-color: #ebf7f3;
@@ -52,4 +51,32 @@
     font-size: 1.3rem;
     font-weight: 500;
     border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    .registro-validacion-div > div{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-registro-validacion{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .registro-validacion-div{
+        padding: 30px;
+    }
+    .registro-validacion-div > h1{
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+    .registro-validacion-div p{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .btn-validar{
+        font-size: 1.2rem;
+    }
 }

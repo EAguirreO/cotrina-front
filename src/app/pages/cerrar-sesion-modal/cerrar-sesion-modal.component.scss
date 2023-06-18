@@ -1,0 +1,68 @@
+/* Modal Cerrar Sesion */
+.modal-body{
+    padding: 40px 50px 30px;
+}
+// #cerrarSesionModal .modal-dialog{
+//     max-width: 480px;
+// }
+.modal-content{
+    border-radius: 20px;
+}
+.cerrarSesionModal-titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cerrarSesionModal-texto{
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+}
+.cerrarSesionModalBtn-si{
+    background-color: #11434c !important;
+    color: white !important;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+.cerrarSesionModalBtn-no{
+    background-color: white !important;
+    color: #2db18a !important;
+    border-color: #2db18a !important;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .modal-dialog{ 
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 425px) {
+    .modal-body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cerrarSesionModal-titulo{
+        font-size: 1.8rem;
+    }
+    .cerrarSesionModalBtn-si,
+    .cerrarSesionModalBtn-no{
+        font-size: 1.2rem;
+    }
+}

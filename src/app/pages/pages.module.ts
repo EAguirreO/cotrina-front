@@ -25,6 +25,11 @@ import { RecuperarContraseniaDComponent } from './recuperar-contrasenia-d/recupe
 import { TerminosCondicionesComponent } from './terminos-condiciones/terminos-condiciones.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { CatalogoDetalleComponent } from './catalogo-detalle/catalogo-detalle.component';
+import { LoginModalComponent } from './login-modal/login-modal.component';
+import { RecuperarContraseniaAComponent } from './recuperar-contrasenia-a/recuperar-contrasenia-a.component';
+import { RecuperarContraseniaBComponent } from './recuperar-contrasenia-b/recuperar-contrasenia-b.component';
+import { CerrarSesionModalComponent } from './cerrar-sesion-modal/cerrar-sesion-modal.component';
+import { CarritoPreviewComponent } from './carrito-preview/carrito-preview.component';
 
 
 
@@ -51,7 +56,12 @@ import { CatalogoDetalleComponent } from './catalogo-detalle/catalogo-detalle.co
     RecuperarContraseniaDComponent,
     TerminosCondicionesComponent,
     CatalogoComponent,
-    CatalogoDetalleComponent
+    CatalogoDetalleComponent,
+    LoginModalComponent,
+    RecuperarContraseniaAComponent,
+    RecuperarContraseniaBComponent,
+    CerrarSesionModalComponent,
+    CarritoPreviewComponent
   ],
   imports: [
     CommonModule,
@@ -80,7 +90,12 @@ import { CatalogoDetalleComponent } from './catalogo-detalle/catalogo-detalle.co
     RecuperarContraseniaDComponent,
     TerminosCondicionesComponent,
     CatalogoComponent,
-    CatalogoDetalleComponent
+    CatalogoDetalleComponent,
+    LoginModalComponent,
+    RecuperarContraseniaAComponent,
+    RecuperarContraseniaBComponent,
+    CerrarSesionModalComponent,
+    CarritoPreviewComponent
   ]
 })
 export class PagesModule { }
