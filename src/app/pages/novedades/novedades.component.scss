@@ -33,8 +33,8 @@
 }
 .carousel-sub h1{
     color: white;
-    font-size: 4.4rem;
-    line-height: 4.4rem;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: 600;
     max-width: 500px;
     margin-bottom: 0;
@@ -42,12 +42,12 @@
 .carousel-sub a{
     background-color: #2db18a;
     color: white;
-    font-size: 1.4rem;
-    padding: 8px 60px;
+    font-size: 1.2rem;
+    padding: 10px 50px;
     border-radius: 10px;
     border: 2px solid #2db18a;
     // width: 218px;
-    flex: 0 0 220px;
+    // flex: 0 0 220px;
 }
 .carousel-sub a:hover{
     color: #2db18a;
@@ -56,8 +56,10 @@
 }
 .carousel-indicators{
 	bottom: -40px;
+    align-items: center;
 }
 .carousel-indicators [data-bs-target] {
+    width: 25px;
 	height: 7px;
 	border: none;
 	border-radius: 5px;
@@ -65,6 +67,8 @@
 }
 .carousel-indicators .active{
 	background-color: #11434c !important;
+    width: 40px;
+	height: 10px;
 }
 .btn-novedad-mini{
     padding: 15px;
@@ -75,8 +79,8 @@
 .btn-novedad-mini-activa{
     background-color: #ebf7f3;
 }
-.novedad-mini{
-}
+// .novedad-mini{
+// }
 .img-novedad-mini{
     margin-right: 15px;
 }
@@ -84,15 +88,15 @@
     border-radius: 10px;
 }
 .novedad-mini p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #2db18a;
     text-align: start;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 .novedad-mini h3{
-    font-size: 1.7rem;
-    line-height: 1.7rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
     color: #11434c;
     text-align: start;
     margin-bottom: 0;
@@ -104,22 +108,23 @@
     padding-right: 140px;
 }
 .section-2 h2{
-    font-size: 3.4rem;
+    font-size: 3rem;
     color: #11434c;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0px;
 }
 .sec-2-cont{
     margin-bottom: 30px;
 }
 .sec-2-div > p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 0;
     color: #2db18a;
 }
 .sec-2-div button{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: none;
+    color: #2db18a;
 }
 .img-drop-hidden{
     display: none;
@@ -136,6 +141,9 @@
     display: none;
     visibility: hidden;
 }
+.dropdown-item{
+    text-align: right;
+}
 .seccion-novedad{
 	display: block;
 	text-decoration: none;
@@ -145,8 +153,8 @@
 }
 .seccion-novedad > h4{
 	color: #11434c;
-	font-size: 1.6rem;
-	font-weight: 600;
+	font-size: 1.5rem;
+	font-weight: 700;
 	/* margin-top: 10px; */
 	margin-bottom: 10px;
 }
@@ -171,7 +179,7 @@
 	/* text-align: center; */
 	margin-bottom: 0;
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 .seccion-novedad:hover .sec-novedad-oculto{
 	display: flex !important;
@@ -179,19 +187,19 @@
 }
 .novedad-fecha{
 	color: #2db18a;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	margin-bottom: 0;
 }
 .novedad-texto{
 	color: black;
 	text-align: justify;
-	font-size: 1.1rem;
-	line-height: 1.1rem;
+	font-size: 1rem;
+	line-height: 1rem;
 }
 .num-pagina{
     color: #11434c;
     padding: 0px 15px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 15px;
 }
 .pagina-activa{
@@ -217,7 +225,7 @@
         height: 550px;
     }
     .carousel-div h1{
-        font-size: 3.5rem;
+        font-size: 3.1rem;
         line-height: normal;
         max-width: none;
     }
@@ -237,18 +245,18 @@
         padding-right: 50px;
     }
     .carousel-div h1{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     .carousel-sub a{
-        font-size: 1.2rem;
-        flex: 0 0 180px;
+        font-size: 1rem;
+        // flex: 0 0 180px;
     }
     .section-2{
         padding-left: 50px;
         padding-right: 50px;
     }
     .section-2 h2{
-        font-size: 3rem;
+        font-size: 2.6rem;
         line-height: normal;
     }
 }
@@ -262,7 +270,7 @@
         padding-right: 30px;
     }
     .section-2 h2{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
 }
 @media (max-width: 991px) {
@@ -288,9 +296,9 @@
     .carousel-div h1{
         margin-bottom: 10px;
     }
-    .carousel-sub a{
-        flex: none;
-    }
+    // .carousel-sub a{
+    //     flex: none;
+    // }
     .sec-2-cont{
         align-items: stretch !important;
         flex-direction: column;
@@ -325,7 +333,7 @@
         padding-right: 16px;
     }
     .section-2 h2{
-        font-size: 2.4rem;
+        font-size: 2rem;
         text-align: center;
     }
     .sec-2-div{

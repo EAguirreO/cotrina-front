@@ -19,29 +19,29 @@
 }
 .enlace-regresar{
     color: black !important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     border-bottom: 1px solid black;
 }
 .titulo-novedad{
-    font-size: 4.5rem;
-    line-height: 4.5rem;
-    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
     color: #11434c;
-    margin-bottom: 0;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 .fecha-novedad{
     color: #2db18a;
     padding-left: 8px;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
 }
 .sec-1-div > p{
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.8rem;
     color: #6c6e6f;
     /* line-height: 1.4rem; */
@@ -50,7 +50,7 @@
     margin-top: 30px;
     color: #2db18a !important;
     font-weight: 600;
-    font-size: 1.6rem !important;
+    font-size: 1.5rem !important;
 }
 .img-sim-video{
     margin-top: 50px;
@@ -63,13 +63,13 @@
 	margin-bottom: 70px;
 }
 .section-2 h2{
-	font-size: 3.4rem;
+	font-size: 3rem;
 	color: #11434c;
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 10px;
 }
 .section-2-header{
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 // .section-2 .row{
 //     margin-top: 30px;
@@ -81,9 +81,9 @@
 .btn-ver-novedades{
 	background-color: #11434c;
 	color: white;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 500;
-	padding: 6px 25px;
+	padding: 10px 25px;
 	border-radius: 10px;
 	border: 2px solid #11434c;
 }
@@ -101,8 +101,8 @@
 }
 .seccion-2-novedad > h4{
 	color: #11434c;
-	font-size: 1.6rem;
-	font-weight: 600;
+	font-size: 1.5rem;
+	font-weight: 700;
 	/* margin-top: 10px; */
 	margin-bottom: 10px;
 }
@@ -127,7 +127,7 @@
 	/* text-align: center; */
 	margin-bottom: 0;
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 .seccion-2-novedad:hover .sec-2-oculto{
 	display: flex !important;
@@ -135,14 +135,14 @@
 }
 .novedad-fecha{
 	color: #2db18a;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	margin-bottom: 0;
 }
 .novedad-texto{
 	color: black;
 	text-align: justify;
-	font-size: 1.1rem;
-	line-height: 1.1rem;
+	font-size: 1rem;
+	line-height: 1rem;
 }
 
 
@@ -174,7 +174,7 @@
         margin-right: 50px;
     }
 	.section-2 h2{
-		font-size: 3rem;
+		font-size: 2.6rem;
 		line-height: normal;
 	}
 	.section-2{
@@ -189,11 +189,11 @@
         margin-right: 30px;
     }
 	.titulo-novedad{
-		font-size: 4rem;
+		font-size: 3.5rem;
 		line-height: normal;
 	}
 	.section-2 h2{
-		font-size: 2.8rem;
+		font-size: 2.4rem;
 	}
     .section-2{
         margin-left: 30px;
@@ -209,7 +209,7 @@
 		padding-right: 0;
 	}
 	.titulo-novedad{
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.section-2-header{
 		flex-direction: column;
@@ -223,22 +223,22 @@
         margin-right: 16px;
     }
 	.titulo-novedad{
-		font-size: 2.2rem;
+		font-size: 1.7rem;
 		text-align: center;
 	}
 	.fecha-novedad{
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		text-align: center;
 	}
 	.sec-1-div > p{
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		line-height: normal;
 	}
 	.texto-especial{
-		font-size: 1.2rem !important;
+		font-size: 1.1rem !important;
 	}
 	.section-2 h2{
-		font-size: 2.4rem;
+		font-size: 2rem;
 		text-align: center;
 	}
 	.section-2{
@@ -254,9 +254,9 @@
 }
 @media (max-width: 375px) {
 	.titulo-novedad{
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.section-2 h2{
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 	}
 }

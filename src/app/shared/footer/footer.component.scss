@@ -11,7 +11,7 @@
     background-color: transparent;
     border: none;
     color: #11434c;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .input-correo > input::placeholder{
     color: #11434c;
@@ -30,14 +30,14 @@
 }
 .footer-text-1{
     color: #11434c;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-    font-weight: 600;
-    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 .footer-text-2{
-    font-size: 1.65rem;
-    line-height: 1.65rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     margin-bottom: 0;
     font-weight: 500;
 }
@@ -54,15 +54,15 @@
 }
 .footer-titulo{
     color: #2db18a;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: 600;
 }
 .footer-enlace{
     color: white;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .footer-enlace:hover{
     color: white;
@@ -76,7 +76,7 @@
     border-radius: 10px;
 }
 .footer-div-3 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #11434c;
     margin-bottom: 0;
     text-align: center;
@@ -150,11 +150,11 @@
 }
 @media (max-width: 768px) {
     .footer-text-1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: normal
     }
     .footer-text-2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: normal;
     }
 }
@@ -180,11 +180,11 @@
         align-items: center !important;
     }
     .footer-text-1{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: center;
     }
     .footer-text-2{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .input-correo{
@@ -201,11 +201,11 @@
         align-items: center !important;
     }
     .footer-titulo{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: center;
     }
     .footer-enlace{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .div-img-metodos{
         display: flex;

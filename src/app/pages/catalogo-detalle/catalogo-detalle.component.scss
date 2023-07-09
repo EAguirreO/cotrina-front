@@ -5,8 +5,6 @@
 }
 
 .breadcrumb-custom{
-}
-.breadcrumb-custom{
     margin-left: 140px;
     margin-right: 140px;
     color: #11434c;
@@ -17,7 +15,7 @@
     color: #11434c;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 .enlace-producto{
     color: #2db18a !important;
@@ -56,18 +54,19 @@
 }
 .prod-descripcion > h2{
     color: #2db18a;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    margin-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 .prod-descripcion > h1{
     color: #11434c;
-    font-size: 3.2rem;
-    line-height: 3.2rem;
-    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
 }
 .prod-descripcion > p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1.7rem;
     text-align: justify;
     margin-bottom: 20px;
@@ -77,15 +76,15 @@
     margin-bottom: 20px;
 }
 .prod-precio-1{
-    font-size: 4rem;
-    line-height: 4rem;
-    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 700;
     margin-bottom: 8px;
     margin-right: 10px;
 }
 .prod-precio-2{
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     font-weight: 600;
     max-width: 90px;
     margin-bottom: 0;
@@ -98,17 +97,18 @@
 .prod-cantidad > button{
     background-color: #11434c;
     color: white;
-    font-size: 1.4rem;
-    padding: 6px 18px 3px;
+    font-size: 1.2rem;
+    padding: 6px 18px;
     border: 2px solid transparent;
     border-radius: 10px;
+    font-weight: 500;
 }
 .prod-cantidad > button:hover{
     border: 2px solid #11434c;
     color: #11434c;
 }
 .num-cantidad{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .btn-menos{
     padding-left: 0;
@@ -146,15 +146,15 @@
 }
 .detalles-prod-div{
     background-color: #ebf7f3;
-    padding: 15px 0px;
+    padding: 25px 0px;
     margin-bottom: 50px;
 }
 .detalles-prod-div > button{
     border: none;
     color: #11434c;
-    font-size: 2.2rem;
-    font-weight: 600;
-    padding: 6px 25px 3px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 6px 25px;
     border-radius: 35px;
 }
 .detalles-prod-div .active{
@@ -166,12 +166,13 @@
     margin-bottom: 100px;
 }
 .cont-detalle{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 .titulo-detalle{
     color: #11434c;
-    font-size: 2.3rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .sub-detalle{
     flex-shrink: 0;
@@ -195,7 +196,7 @@
     padding: 50px 125px;
 }
 .section-3 h2{
-	font-size: 3.4rem;
+	font-size: 3rem;
 	color: #11434c;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -208,9 +209,9 @@
 .btn-ver-catalogo{
 	background-color: #11434c;
 	color: white;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 500;
-	padding: 6px 25px;
+	padding: 10px 25px;
 	border-radius: 10px;
 	border: 2px solid #11434c;
 }
@@ -230,15 +231,15 @@
 }
 .seccion-3-prod > h4{
 	color: #11434c;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
 .seccion-3-prod > p{
 	color: #2db18a;
-	font-size: 2.1rem;
-	line-height: 2.1rem;
+	font-size: 2rem;
+	line-height: 2rem;
 	font-weight: 600;
 }
 .seccion-3-prod-cont{
@@ -265,7 +266,7 @@
 	/* text-align: center; */
 	margin-bottom: 0;
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 .seccion-3-prod:hover .sec-3-oculto{
 	display: flex !important;
@@ -327,7 +328,7 @@
         padding-right: 35px;
     }
     .section-3-header > h2{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 }
 @media (max-width: 992px) {
@@ -364,7 +365,7 @@
         // margin-right: 0;
     }
     .section-3-header > h2{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
 }
 @media (max-width: 991px) {
@@ -382,15 +383,15 @@
         line-height: normal;
     }
     .prod-descripcion > p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: normal;
     }
     .prod-precio-1{
-        font-size: 3.5rem;
+        font-size: 2.9rem;
         line-height: normal;
     }
     .prod-precio-2{
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: normal;
     }
 }
@@ -399,7 +400,7 @@
         flex-direction: column !important;
     }
     .titulo-detalle{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 @media (max-width: 425px) {
@@ -415,23 +416,23 @@
         font-size: 2.5rem;
     }
     .prod-descripcion > p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .prod-precio-1{
-        font-size: 2.5rem;
+        font-size: 1.9rem;
     }
     .prod-precio-2{
-        font-size: 1rem;
+        font-size: 0.8rem;
         max-width: none;
     }
     .prod-cantidad{
         align-self: center !important;
     }
     .prod-cantidad > button{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .num-cantidad{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .detalles-prod-div > button{
         font-size: 1.8rem;
@@ -441,7 +442,7 @@
         margin-right: 16px;
     }
     .titulo-detalle{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     .section-3-header{
@@ -450,16 +451,16 @@
         align-items: center !important;
     }
     .section-3-header > h2{
-        font-size: 2.4rem;
+        font-size: 2rem;
         text-align: center;
     }
     .btn-ver-catalogo{
         align-self: center;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 }
 @media (max-width: 375px) {
     .section-3-header > h2{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 }
